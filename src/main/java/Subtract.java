@@ -15,6 +15,9 @@ public class Subtract {
      * @return a minus b
      */
     public double sub(double a, double b){
-        return 0;
+        // declares and initializes double type variable difference and stores the value of method input arguments a - b
+        double difference = a - b;
+        // returns the double difference value of a - b
+        return difference;
     }
 }
